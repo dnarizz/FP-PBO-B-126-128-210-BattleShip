@@ -72,9 +72,9 @@ public class BattleshipGame {
                     hit = true;
 
             if (hit)
-                System.out.println("🔥 HIT!");
+                System.out.println("HIT!");
             else
-                System.out.println("💧 MISS!");
+                System.out.println("MISS!");
 
             if (opponent.allDestroyed()) {
                 System.out.println(current.getName() + " WINS!");
